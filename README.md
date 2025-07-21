@@ -49,19 +49,21 @@ setlevel
 Затем введите новый уровень (0-3)
 
 ## Выход из программы:
-
+   ```bash
    quit
+   ```
    ctrl + С
 
 ## Пример работы
-
-./logger_app log.txt 1
-0:Debug message
-Hello world
-setlevel
-Enter new log level (0-3): 0
-0:Now debug will work
-quit
+   ```bash
+   ./logger_app log.txt 1
+   0:Debug message
+   Hello world
+   setlevel
+   Enter new log level (0-3): 0
+   0:Now debug will work
+   quit
+   ```
 
 ## Очистка
 
