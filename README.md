@@ -55,13 +55,13 @@ setlevel
 
 ## Пример работы
 
-$ ./logger_app log.txt 1
-> 0:Debug message
-> Hello world
-> setlevel
+./logger_app log.txt 1
+0:Debug message
+Hello world
+setlevel
 Enter new log level (0-3): 0
-> 0:Now debug will work
-> quit
+0:Now debug will work
+quit
 
 ## Очистка
 
