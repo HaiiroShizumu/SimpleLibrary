@@ -50,8 +50,11 @@ setlevel
 
 ## Выход из программы:
 
-quit
-Пример работы
+   quit
+   ctrl + С
+
+## Пример работы
+
 $ ./logger_app log.txt 1
 > 0:Debug message
 > Hello world
