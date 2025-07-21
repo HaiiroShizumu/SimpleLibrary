@@ -52,20 +52,22 @@ setlevel
    ```bash
    quit
    ```
-   ctrl + С
+   Либо сочетание клавиш: ctrl + С
 
 ## Пример работы
    ```bash
-   ./logger_app log.txt 1
-   0:Debug message
-   Hello world
-   setlevel
-   Enter new log level (0-3): 0
-   0:Now debug will work
-   quit
+$ ./logger_app log.txt 1
+> 0:Debug message
+> Hello world
+> setlevel
+Enter new log level (0-3): 0
+> 0:Now debug will work
+> quit
    ```
 
 ## Очистка
 
 Для удаления скомпилированных файлов:
-  make clean
+   ```bash
+   make clean
+   ```
